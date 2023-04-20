@@ -1,0 +1,88 @@
+*{
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  background-color: black;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 5s linear;
+  }
+}
+.AppCorpo{
+  background: linear-gradient(#ffee00,#d51616, #1221c0) ;
+  color: rgb(255, 255, 255);
+  border-radius: 50px;
+  }
+
+    .AppCorpo h1{
+    font-size: 100px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    }
+  .AppCorpo h2{
+    font-size: 50px;
+  }
+    .AppCorpo h3{
+    font-size: 40px;
+    }
+    .AppCorpo h5{
+    font-size: 30px;
+    }
+    .AppCorpo ul{
+    font-size: 40px;
+    }
+   
+    .AppCorpo table{
+      border-collapse: collapse;
+      border-spacing: 0;
+      display: inline;
+      flex-direction: column;
+      align-items:  center;
+      padding: 10px;
+    }
+    .AppCorpo th{
+      font-size: 35px;
+      padding-right: 3rem;
+    }
+  
+ 
+  .AppCorpo td{
+    padding-right: 3em;
+    font-size: 30px;
+}
+
+  
+.App-header {
+  background-color: #00830db1;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  text-shadow:rgb(0, 0, 0) 0.1em 0.1em 0.2em ;
+  text-decoration: underline white;
+  color: rgb(255, 255, 255);
+  border-radius: 70px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
