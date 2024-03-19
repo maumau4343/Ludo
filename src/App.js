@@ -30,7 +30,7 @@ useEffect(()=>{
      
      <h2>Frases<br></br> motivacionais<br></br> para recitar durante o jogo:</h2>
      <Frase03/>
-     <h1>tabuleiro</h1>
+     <h1>tabuleiro eiro eiro</h1>
      <img src={url} alt="Minha imagem"height="612" width="612"/>
      <br/>
      <Lista/>
