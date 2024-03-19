@@ -12,9 +12,7 @@ function App() {
 useEffect(()=>{
   document.title='Ludo';
 },[])
-  function multiplicacao(a,b){
-    return a*b;
-  }
+
 
   return (
     <div className="App">
@@ -26,7 +24,7 @@ useEffect(()=>{
      <br></br><h1>Como {name}:</h1>
      <h2 >Objetivo:</h2>
      <h5>É só matar quem estiver no caminho e chegar no final,<br></br>não esqueça de deixar um guarda matador, simples</h5>
-     <h2>Quantidade de peças:</h2><h3> {multiplicacao(4,4)}<br></br></h3>
+     <h2>Quantidade de peças: 16</h2><h3><br></br></h3>
      
      <h2>Frases<br></br> motivacionais<br></br> para recitar durante o jogo:</h2>
      <Frase03/>
