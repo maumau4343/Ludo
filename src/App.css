@@ -18,7 +18,7 @@
   }
 }
 .AppCorpo{
-  background: linear-gradient(#ffee00,#d51616, #1221c0) ;
+  background: linear-gradient(rgb(33, 105, 31),#ffee00,#d51616, #1221c0) ;
   color: rgb(255, 255, 255);
   border-radius: 50px;
   }
